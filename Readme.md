@@ -165,3 +165,11 @@ Several class options are available:
 * `a4paper`: Changes layout to A4.
 * `nocolors`: Changes to black and white, leaves headers.
 * `noadress`: Removes letter head from layout.
+
+## Environment preparation on Ubuntu 20.04
+```Bash
+# fontawesome.sty not found
+$ sudo apt-get install texlive-fonts-extra
+# biblatex.sty not found
+$ sudo apt-get install texlive-bibtex-extra biber
+```
